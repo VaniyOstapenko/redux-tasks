@@ -5,6 +5,9 @@ import getInput from "../Slice/getInput";
 import palindrom from "../Slice/palindrom";
 import palindrom2 from "../Slice/palindrom2";
 import see from "../Slice/see";
+import validationEmail from "../Slice/validationEmail";
+import getSum from "../Slice/getSum";
+
 const store = configureStore({
   reducer: {
     counter1: counter1,
@@ -13,6 +16,8 @@ const store = configureStore({
     palindrom: palindrom,
     palindrom2: palindrom2,
     see: see,
+    validationEmail: validationEmail,
+    getSum: getSum,
   },
 });
 

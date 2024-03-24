@@ -24,6 +24,9 @@ function Home() {
       <p>
         <Link to="/task7">Задача 7</Link>
       </p>
+      <p>
+        <Link to="/task8">Задача 8</Link>
+      </p>
     </>
   );
 }
