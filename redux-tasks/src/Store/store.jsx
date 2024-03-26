@@ -7,6 +7,10 @@ import palindrom2 from "../Slice/palindrom2";
 import see from "../Slice/see";
 import validationEmail from "../Slice/validationEmail";
 import getSum from "../Slice/getSum";
+import validPass from "../Slice/validPass";
+import getLengthText from "../Slice/getLengthText";
+import getLanguage from "../Slice/getLanguage";
+import bringTheTask from "../Slice/bringTheTask";
 
 const store = configureStore({
   reducer: {
@@ -18,6 +22,10 @@ const store = configureStore({
     see: see,
     validationEmail: validationEmail,
     getSum: getSum,
+    validPass: validPass,
+    getLengthText: getLengthText,
+    getLanguage: getLanguage,
+    bringTheTask: bringTheTask,
   },
 });
 

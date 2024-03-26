@@ -27,6 +27,18 @@ function Home() {
       <p>
         <Link to="/task8">Задача 8</Link>
       </p>
+      <p>
+        <Link to="/task9">Задача 9</Link>
+      </p>
+      <p>
+        <Link to="/task10">Задача 10</Link>
+      </p>
+      <p>
+        <Link to="/task11">Задача 11</Link>
+      </p>
+      <p>
+        <Link to="/task12">Задача 12</Link>
+      </p>
     </>
   );
 }
